@@ -1,0 +1,215 @@
+@font-face {
+    font-family: 'Arista20';
+    src: url('Arista2.0.ttf')  format('truetype');
+
+
+
+}
+.font-30{
+    font-size: 30px;
+
+}
+.font-16{
+    font-size: 16px;
+}
+hr{
+    background-color: #cd2d34;
+}
+
+.home-bg::before{
+    background: url(../img/back2.jpg);
+    background-size: cover;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    opacity: 0.8;
+}
+#header.header-scrolled {
+    background: rgba(0, 0, 0, 0.7);
+    transition: all 0.5s;
+}
+#header.header-scrolled .nav-menu li:hover > a, #header.header-scrolled .nav-menu > .menu-active > a {
+    color: #39cfca;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:whitesmoke;
+}
+.navbar-light .navbar-nav .nav-link:focus,.navbar-light .navbar-nav .nav-link:hover{
+    color:darkgray;
+}
+.back {
+    margin-top: 30%;
+    font-size: 43px;
+    font-variant: full-width;
+}
+.center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-white{
+    color:white;
+}
+.search-title-tab-list{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    list-style-type:none;
+}
+.search-title-tab-list li a span{
+    font-size: 16px;
+    color: aliceblue;
+    padding: 5px 15px 9px;
+    line-height: 20px;
+    cursor: pointer;
+    display: block;
+}
+.bo{
+    border: 3px solid #006f9d;
+    /*margin: 20px;*/
+}
+.grey-bt{
+    border-bottom: 1px solid #eaebec;
+    padding: 0;
+    margin: 5px 10px 0 10px;
+}
+.mt-10{
+    margin-top:10px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+
+.blue-text{
+    color:#006f9d;
+}
+.ap-mark{
+    width: 25%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 36%;
+}
+.login-text{
+    color: #0d4b97;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0 10px 0;
+}
+.company-text{
+    color: #429ecf;
+    font-size: 16px;
+    font-weight: bold;
+    width: 75%;
+    text-align: left;
+}
+.box-body{
+    width: 96%;
+    margin-left: 2%;
+}
+.job-text{
+    color: #303030;
+    font-size: 14px;
+    margin-top: 19px;
+}
+.grey{
+    background: #f1f1f1;
+}
+.darkgrey{
+    color: #606060;
+}
+.job-category {
+    list-style: none;
+    width: 100%;
+    padding-left: 0;
+    text-align: left;
+    margin-bottom: 0;
+}
+.job-category li{
+    display: inline-block;
+    margin-left: 0.3rem;
+}
+.btn-height{
+    height: 40px;
+    margin: 9px;
+}
+.grey-div{
+    background-color: #e5eaed;
+}
+.job-category li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: red; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+}
+.job-category li span{
+    margin-left: 7px;
+    font-size: 13px;
+}
+.list-group-item:first-child{
+    padding-top:40px;
+}
+.list-group-item{
+    border:none;
+    border-bottom: 1px solid lightgrey;
+    cursor: pointer;
+}
+.list-group-item:hover{
+    background: lightgrey;
+}
+.topic-list li svg{
+    margin-right: 10px;
+}
+.popular-title{
+    margin: 10px;
+    border-right: solid 1px grey;
+    padding-top: 4%;
+}
+.flag-area{
+    padding:30px 0 30px 0;
+}
+.flag-area .col-4{
+    margin: 15px 0px;
+}
+.flag-img{
+    width:25px;
+    height: 20px;
+}
+.flag-title{
+    font-size: 16px;
+    margin-left: 10px;
+}
+.ap-lead-icon{
+    font-size: 20px;
+    line-height: 25px;
+    padding: 0 3px 0 3px;
+    font-family: 'Righteous', cursive;
+    margin-right: 5px;
+    font-style: normal;
+}
+.tab-content{
+    background: white;
+}
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #007bff!important;
+    border-color: #007bff;
+}
+.btn-outline-danger:hover {
+    color: #fff;
+    background-color: #dc3545!important;
+    border-color: #dc3545;
+}
+.searchTerm::placeholder{
+    color:white;
+}
+span{
+    font-family: Arista20;
+}

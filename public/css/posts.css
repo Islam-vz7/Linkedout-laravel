@@ -1,0 +1,128 @@
+.comments-section {
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-top: 1px solid #ddd;
+  border-radius: 0 0 8px 8px;
+  transition: opacity 0.3s ease;
+}
+
+
+
+.comment-author {
+  font-weight: bold; /* Bold text for author's name */
+  color: #007bff; /* Primary color for author's name */
+}
+
+.comment-content {
+  color: #6c757d; /* Muted text color for comment content */
+}
+
+.text-muted {
+  color: #6c757d !important; /* Ensure muted text appears muted */
+}
+
+
+.comments strong {
+  display: block; /* Ensures the name appears on a new line */
+  font-size: 1.1rem; /* Adjust font size for the name */
+}
+
+.comments small {
+  color: #6c757d; /* Muted color for timestamp */
+}
+
+textarea.form-control {
+  border-radius: 8px;
+}
+
+button.btn-primary {
+  border-radius: 8px;
+  background-color: #007bff;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+button.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.comment-box {
+  background-color: #f9f9f9; /* Light background */
+  border-left: 5px solid #007bff; /* Left border to highlight */
+  border-radius: 8px; /* Smooth corners */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.comment-box:hover {
+  background-color: #f1f1f1; /* Change background on hover */
+}
+
+
+
+.shadow-sm {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for a modern look */
+}
+
+/* Customizing the file input section (keeping from previous design) */
+.custom-file-input {
+  cursor: pointer;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+}
+
+.custom-file-label {
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  transition: background-color 0.3s ease;
+}
+
+.custom-file-label:hover {
+  background-color: #e9ecef;
+}
+
+/* New button style */
+/* Custom button style with smaller size and blue theme */
+.btn-modern-blue {
+  background-color: #007BFF; /* Primary blue color */
+  color: white;
+  border: none;
+  border-radius: 30px; /* Small rounded corners */
+  padding: 8px 18px; /* Smaller padding */
+  font-size: 14px; /* Smaller font size */
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 123, 255, 0.2); /* Blue shadow */
+}
+
+.btn-modern-blue:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  box-shadow: 0 6px 12px rgba(0, 86, 179, 0.4);
+  transform: translateY(-1px); /* Slight lift on hover */
+}
+
+.btn-modern-blue i {
+  font-size: 1.1rem;
+  color: #fff;
+  margin-right: 8px; /* Adjust icon spacing */
+}
+
+/* Click feedback with slight shrink */
+.btn-modern-blue:active {
+  transform: scale(0.97);
+  box-shadow: 0 2px 4px rgba(0, 123, 255, 0.2);
+}
+
+
+textarea {
+  padding: 0.5rem;   /* Adds padding */
+  height: auto;      /* Adjust height automatically */
+  line-height: 1.5;  /* Improve readability */
+}
+
+textarea::placeholder {
+  color: #020000;       /* Placeholder text color */
+  opacity: 1;        /* Fully opaque */
+}

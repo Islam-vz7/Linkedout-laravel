@@ -1,0 +1,114 @@
+.home-bg::before{
+    background: url(../img/back2.jpg);
+    background-size: cover;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    opacity: 0.8;
+}
+#header.header-scrolled {
+    background: rgba(0, 0, 0, 0.7);
+    transition: all 0.5s; }
+#header.header-scrolled .nav-menu li:hover > a, #header.header-scrolled .nav-menu > .menu-active > a {
+    color: #39cfca; }
+.bo{
+    border: 3px solid #006f9d;
+    margin: 20px;
+    height: 103px;
+}
+
+.bg-light {
+    background-color: rgba(248, 249, 250, 0.7)!important;
+}
+.center{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}
+.con{
+    padding: 0px 100px;
+}
+.mar{
+    margin: 50px;
+}
+.back {
+    margin-top: 25%;
+    font-size: 43px;
+    font-variant: full-width;
+}
+.border5{
+    border-radius: 10px 0 0 10px;
+    border: 1px solid white;
+}
+.border6{
+
+    border-radius: 0 10px 10px 0;
+    border: 1px solid white;
+}
+
+
+
+
+
+/* AD banner css */
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.section-area {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+.last-visit-wrapper{
+    background-color: #f2f2f2;
+    padding-bottom: 30px;
+}
+.last-visit-wrapper .wrapper{
+    position: relative;
+}
+.wrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    z-index: 10;
+}
+.content {
+    display: block;
+    flex-wrap: wrap;
+    flex: 1;
+    padding: 0 12px;
+}
+
+/* start home css */
+.postone
+{
+    background-color: #eaeaea;
+    border-left: 1px solid #cecece;
+    width: 380px;
+    height: 230px;
+    border-radius: 2px;
+    border: solid thin #ddd;
+    box-shadow: 0px 5px 9px 2px #ddd;
+}
+
+
+
+
+
+
+
+
+/* End css */
+
+/* job-channel css */
+
+/* End job-channel css */
